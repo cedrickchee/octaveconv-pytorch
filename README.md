@@ -6,7 +6,7 @@ This is **third-party/un-official** implementation of the following papers which
 
 1. Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
 [paper](https://arxiv.org/abs/1904.05049).
-![](fig/octave_conv.png)
+![](fig/OctConv_detailed_design.png)
 2. Adaptively Connected Neural Networks.(CVPR 2019)
 [paper](https://arxiv.org/abs/1904.03579).
 ![](fig/adaptive_conv.png)
