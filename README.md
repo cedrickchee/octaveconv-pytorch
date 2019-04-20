@@ -2,7 +2,7 @@
 
 ## Pytorch implementation of Octave Convolution with other similar operation
 
-This is **third-party/un-official** implementation of the following papers which are talked in [Recente_Convolution.pdf](https://github.com/lxtGH/OctaveConv_pytorch/blob/master/Recent_Convolution.pdf):
+This is **third-party/un-official** implementation of the following papers which are presented in [Recent_Convolution.pdf](https://github.com/cedrickchee/octaveconv-pytorch/blob/master/Recent_Convolution.pdf):
 
 1. Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
 [paper](https://arxiv.org/abs/1904.05049).
@@ -16,11 +16,11 @@ This is **third-party/un-official** implementation of the following papers which
 
 ## Plan
 
-1. Add Res2Net block with SE-layer (done)
-2. Add Adaptive-Convolution: both pixel-aware and dataset-aware (done)
-3. Add HetConv (optional): if I have time :)
-3. Train on CIFAR ()
-4. Train on ImageNet (): Who can help me train this repo on ImageNet?
+- [x] Add Res2Net block with SE-layer
+- [x] Add Adaptive-Convolution: both pixel-aware and dataset-aware (done)
+- [ ] Add HetConv (optional): (_if I have time :slightly_smiling_face:_)
+- [ ] Train on CIFAR
+- [ ] Train on ImageNet (_Who can help me train this repo on ImageNet?_)
 
 ## Requirements
 
@@ -44,10 +44,21 @@ model = PixelAwareResnet50().cuda()
 model = DataSetAwareResnet50().cuda()
 ```
 
-## Reference:
+## Credits:
+
+Referenced these implementations:
 
 1. OctaveConv: MXNet implementation [here](https://github.com/terrychenism/OctaveConv)
 2. AdaptiveCov: Offical tensorflow implementation [here](https://github.com/wanggrun/Adaptively-Connected-Neural-Networks)  
+
+## Other Implementations
+
+- PyTorch
+  - https://github.com/gan3sh500/octaveconv-pytorch
+  - https://github.com/vivym/OctaveConv.pytorch
+- TensorFlow / Keras
+  - https://github.com/CyberZHG/keras-octave-conv
+  - https://github.com/l5shi/Octave-Conv-Keras
 
 ## License
 
